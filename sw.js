@@ -7,7 +7,7 @@ var preLoad = function() {
     return caches.open("offline-v1").then(function(cache) {
         console.log("Caching index, CSS, JS, and other important routes");
         return cache.addAll([
-            "/login.html",                                
+            "/index.html",                                
             "/dashboard.html",                            
             "/styles.css",                                
             "/script.js",                                    

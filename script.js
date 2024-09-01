@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
     submitChildCodeButton.addEventListener('click', () => {
         if (childCodeInput.value.length === 6) {
             document.getElementById('child-profile').classList.remove('d-none');
-            document.getElementById('child-name').textContent = 'John Doe';
+            document.getElementById('child-name').textContent = 'Tharun N.';
         } else {
             const error = document.getElementById('child-code-error');
             error.textContent = 'Invalid code.';
